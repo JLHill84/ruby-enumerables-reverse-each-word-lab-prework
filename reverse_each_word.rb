@@ -6,5 +6,5 @@ def reverse_each_word(string)
     revArray[i] = stringArray[i].to_str.reverse
     i += 1
   end
-  puts revArray
+  return revArray
 end
