@@ -8,3 +8,7 @@
 # end
 # return revArray.join(" ")
 #end
+
+def reverse_each_word(string)
+  stringArray = string.split(/ /)
+  stringArray.collect
