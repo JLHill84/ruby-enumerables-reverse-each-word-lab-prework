@@ -4,5 +4,5 @@ def reverse_each_word(string)
   while i < stringArray.length do
     revArray[i] = stringArray[i].reverse
   end
-  p stringArray
+  p revArray
 end
