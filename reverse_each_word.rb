@@ -7,5 +7,5 @@ def reverse_each_word(string)
     i += 1
     p revArray[i]
   end
-  return revArray.to_str
+  
 end
