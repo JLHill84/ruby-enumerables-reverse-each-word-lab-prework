@@ -1,4 +1,8 @@
 def reverse_each_word(string)
-  string.split(/ /)
+  stringArray = string.split(/ /)
+  i = 0
+  while i < stringArray.length do
+    revArray[i] = stringArray[i].reverse
+  end
   p string
 end
